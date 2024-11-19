@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>modificar </title>
+</head>
+<body>
+    <form action="modificar.php" method="post">
+        <label for="nombre">Nombre del producto:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Ej. Jabón" required>
+        <br><br>
+    
+        <label for="precio_venta">Precio de Venta:</label>
+        <input type="number" id="precio_venta" name="precio_venta" step="0.01" placeholder="Ej. 350.00" required>
+        <br><br>
+    
+        <label for="precio_compra">Precio de Compra:</label>
+        <input type="number" id="precio_compra" name="precio_compra" step="0.01" placeholder="Ej. 200.00" required>
+        <br><br>
+    
+        <label for="categoria">Categoría:</label>
+        <input type="text" id="categoria" name="categoria" placeholder="Ej. Higiene" required>
+        <br><br>
+    
+        <label for="stock">Stock:</label>
+        <input type="number" id="stock" name="stock" placeholder="Ej. 5" required>
+        <br><br>
+    
+        <button type="submit">Guardar Producto</button>
+    </form>
+</body>
+    
