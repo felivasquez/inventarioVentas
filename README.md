@@ -128,3 +128,45 @@ Al implementar CRUD, se logra una gestión integral del sistema de inventario y 
 asegura que la información esté actualizada, que se puedan realizar consultas rápidas, y que
 los errores puedan corregirse de forma eficiente. La funcionalidad CRUD es la base para
 construir aplicaciones dinámicas y escalables.
+
+
+
+
+
+
+
+/sales-manager
+├── /config
+│   └── database.php
+├── /public
+│   ├── index.php
+│   ├── /assets
+│   │   ├── /css
+│   │   │   └── styles.css
+│   │   ├── /js
+│   │   │   └── scripts.js
+│   │   └── /images
+│   │       └── logo.png
+├── /src
+│   ├── /controllers
+│   │   ├── ProductController.php
+│   │   └── CustomerController.php
+│   ├── /models
+│   │   ├── Product.php
+│   │   └── Customer.php
+│   ├── /views
+│   │   ├── /products
+│   │   │   ├── index.php
+│   │   │   ├── create.php
+│   │   │   └── edit.php
+│   │   └── /customers
+│   │       ├── index.php
+│   │       ├── create.php
+│   │       └── edit.php
+├── /routes
+│   └── web.php
+├── /vendor
+├── .env
+├── composer.json
+└── README.md
+
